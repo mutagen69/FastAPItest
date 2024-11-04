@@ -15,7 +15,7 @@ cd FastAPItest
 
 4) Создать окружение
 ```
-python3 venv .venv
+python3 -m venv .venv
 ```
 
 5) Активировать окружение
@@ -23,7 +23,12 @@ python3 venv .venv
 source .venv/bin/activate
 ```
 
-6) Установить зависимости
+6) Экспортировать переменные в окружение 
+```
+export $(cat .env | xargs)
+```
+
+7) Установить зависимости
 ```
 python3 -m pip install -r requirements.txt
 ```
