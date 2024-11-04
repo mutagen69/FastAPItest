@@ -1,5 +1,0 @@
-DB=sqlite+pysqlite:///data.db
-SECRET_KEY=my_secret_key@@@123
-ACCESS_TOKEN_EXPIRE_MINUTES=43200
-KINOPOISK_API=https://kinopoiskapiunofficial.tech
-KINOPOISK_API_KEY=СЮДА_КЛЮЧ_АПИ
